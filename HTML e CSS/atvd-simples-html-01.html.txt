@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Uma Página HTML5 Básica</title>
+</head>
+<body>
+<div>
+<h1>H1</h1>
+<hr>
+<h2>H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+<h5>H5</h5>
+<h6>Texto H6</h6>
+<br>
+<p>Texto tag P<p>
+<br>
+<mark>Texto tipo Mark</mark>
+<br>
+<small>Texto SMALL</small>
+<br>
+<i>Texto</i><u>Texto</u><strong>Texto</strong>
+<br>
+<ul>
+<li>Primeiro item da lista</li>
+<li>Segundo item da lista:
+<ul>
+<li>Primeiro item da lista aninhada</li>
+<li>Segundo item da lista aninhada</li>
+</ul>
+</li>
+<li>Terceiro item da lista</li>
+</ul>
+<br>
+<ol>
+<li>Primeiro item da lista</li>
+<li>Segundo item da lista</li>
+<li>Terceiro item da lista</li>
+<li>Quarto item da lista</li>
+<li>Quinto item da lista</li>
+</ol>
+<br>
+<p>
+  Visite o site da <a href="https://www.caelum.com.br">Caelum</a>.
+</p>
+<br>
+<sub>Teste</sub>
+<sup>Teste</sup>
+<blockquote>Teste</blockquote>
+
+
+
+</div>
+
+</body>
+</html>
