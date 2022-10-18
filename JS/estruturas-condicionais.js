@@ -26,7 +26,7 @@ const numerox = 10
 const numeroParr = (numerox % 2) === '0'
 console.log(numeroParr); //vai retornar "FALSE" por que um numero não é igual tipo texto
 
-//exemplo 2
+//exemplo 2 (trabalhando condições + números aleatórios)
 const variavelX = Math.random() * 200
 const variavelY = 100
 console.log(variavelX.toFixed(0))
