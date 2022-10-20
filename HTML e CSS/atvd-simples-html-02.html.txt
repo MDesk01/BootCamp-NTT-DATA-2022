@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                CLÍNICA DE EXEMPLO
+            </div>
+    
+            <div class="content">
+<table style="width:100%">
+  <tr>
+    <th>Serviços</th>
+    <th>Segunda a Sexta</th>
+    <th>Sábados</th>
+    <th>Feriados</th>
+  </tr>
+  <tr>
+    <td>Geral</td>
+    <td>08h-19h</td>
+    <td>08h-14h</td>
+    <td>08h-14h</td>
+  </tr>
+  <tr>
+    <td>Psicologia</td>
+    <td>08h-19h</td>
+    <td>08h-14h</td>
+    <td>08h-14h</td>
+  </tr>
+    <tr>
+    <td>Pediatria</td>
+    <td>08h-19h</td>
+    <td>08h-14h</td>
+<td>-</td>
+  </tr>
+    <tr>
+    <td>Oftalmologia</td>
+    <td>08h-19h</td>
+    <td>08h-14h</td>
+    <td>-</td>
+</table>
+<br>
+            </div>
+    
+            <div class="footer">
+<form action="/action_page.php">
+  <label for="fname">Nome:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">E-mail:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+    <label for="lname">Assunto:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Enviar">
+  <input type="reset">
+</form>              
+              
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
