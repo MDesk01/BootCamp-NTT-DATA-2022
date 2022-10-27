@@ -1,0 +1,12 @@
+//entrada de dados
+var a = parseInt(gets());
+var N = parseInt(gets());
+
+//saídas
+let soma = 0;
+let i = 0;
+while((a*i) <= N){
+    soma += a*i;
+    i++
+}
+print(soma)
